@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #080710;
+        }
+
+        form {
+            height: 500px;
+            width: 300px;
+            background-color: rgba(201, 28, 28, 0.13);
+            ;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 50px 30px;
+            box-shadow: 0 0 10px cornflowerblue;
+            color: #ffffff;
+        }
+
+        form h2 {
+            text-align: center;
+            line-height: 30px;
+            font-size: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        input {
+            display: block;
+            height: 50px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.07);
+            border-radius: 3px;
+            padding: 0 20px;
+            margin-top: 8px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        button {
+            margin-top: 50px;
+            width: 100%;
+            background-color: #ffffff;
+            color: #080710;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .social {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .social div{
+            width: 100px;
+            border-radius: 3px;
+            text-align: center;
+              padding: 5px 10px 10px 5px;
+
+            background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>Login in</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Email or Phone">
+
+        <label for="password">Password</label>
+        <input type="=password" id="password" name="password">
+
+        <button>Log In</button>
+        <div class="social">
+            <div class="go so"> Google</div>
+            <div class="fb so"> Facebook</div>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

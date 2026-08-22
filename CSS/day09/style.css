@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+h1{
+    /* padding-top: 30px; */
+    margin-top:  30px;
+}
+
+.container{
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+    /* display: flex; */
+    /* flex-direction: row;  */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    margin: 40px;
+    /* gap: 20px; */
+}
+/*  app the trainition property will add in the card*/
+.card{
+    /* width: 250px;
+    height: 270px; */
+    background-color: beige;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow:hidden;
+    cursor: pointer;
+    box-shadow : 0px 10px 12px burlywood;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    transition: transform 0.5s ease, opacity 0.4s ease;
+    /* object-fit: cover; */
+    display: block;
+    /* height: 270px; */
+}
+.card:hover img{
+    transform: scale(1.05);
+    opacity: 0.8;
+
+}
+
+.card h2{
+    margin-top: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+@keyframes box {
+    /* from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg)
+    } */
+
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(400px);
+    }
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin-left: 400px; */
+    position:relative;
+
+    border: 2px solid brown;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.box1{
+    animation-timing-function: ease;
+}
+.box2{
+    animation-timing-function: ease-in;
+}
+.box3{
+    animation-timing-function: ease-out;
+}
+.box4{
+    animation-timing-function: ease-in-out;
+}
+
+.box5{
+    animation-timing-function: linear;
+}
+.box6{
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+

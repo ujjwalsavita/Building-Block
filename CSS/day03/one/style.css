@@ -1,0 +1,42 @@
+.box{
+    height: 80px;
+    width: 80px;
+    border: 2px solid;
+    /* position: sticky; */
+}
+
+.box1{
+    background-color: aliceblue;
+    position: static;
+}
+
+.box2{
+    background-color: rgb(62, 4, 25);
+    /* position: relative; */
+    /* position: absolute; */
+    /* margin-left: 100px; */
+}
+
+.box3{
+    background-color: rgb(24, 81, 6);
+
+}
+
+.box4{
+    background-color: rgb(206, 163, 35);
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    /* z-index: 100; */
+}
+
+.box5{
+    background-color: rgb(162, 34, 204);
+    position: fixed;
+
+    /* left:1;
+    top: 10; */
+    bottom:0px;
+    right: 0px;
+}
+

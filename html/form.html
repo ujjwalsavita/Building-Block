@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <a href="modiji.jpg" download="modiji"> table webpage</a>
+    <a href="#course">COURSES</a>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/5/5…tm_campaign=parser&utm_content=thumbnail_unscaled" alt="Modi ji"> -->
+    <img src="modiji.jpg" alt="Modi ji" height="200" width="200">
+    <!-- <input type="password"> -->
+    <h1>Self Information</h1>
+    <form >
+        <label for="name">Name : </label>
+        <input  type="text" 
+                id="name" 
+                name="name" 
+                required
+                minlength="2"
+                maxlength="15"
+                pattern= '[A-Za-z\s]+'
+                title="Enter your name"
+        >
+        <br><br>
+
+        <label for="fname">Father Name : </label>
+        <input type="text" 
+                id="fname" 
+                name="fname" 
+                required 
+                minlength="2"
+                maxlength="10"
+                autofocus>
+        <br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" 
+                name="email" 
+                id="email" 
+                placeholder="example@gmail.com" 
+                required
+                pattern="[A-Za-z0-9]+'@'[A-Za-z]+\.(com|in|co)$"
+                >
+        <br><br>
+
+        <label for="phone">Phone : </label>
+        <input type="tel" name="phone" id="phone" placeholder="10 digit number" required minlength="10" maxlength="10">
+        <br><br>
+
+        <label>Gender :</label><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob" required>
+        <br><br>
+
+        <label for="course">Course</label>
+        <select name="course" id="course" required>
+
+            <option value="">selcet</option>
+            <option value="MCA">CS</option>
+            <option value="EE">EE</option>
+            <option value="MCA">MCA</option>
+            <option value="BCA">BCA</option>
+        </select>
+        <br><br>
+
+        <Label for="add">Address</Label>
+        <textarea name="address" id="add" required></textarea>
+        <!-- name attribute value ke liye hota hai
+         id  is for the tag name
+         -->
+        <br><br>
+
+        <label for="resume">Upload Resume</label>
+        <input type="file" id="resume"  required>
+        <br><br>
+
+        <label>Hobbies : </label>
+        <label for="cr">Cricket</label>
+        <input type="checkbox" name="hobbies" id="cr" value="cricket"  >
+        <label for="lu">Ludo</label>
+        <input type="checkbox" name="hobbies" id="lu" value="ludo"  >
+        <label for="hc">Hockey</label>
+        <input type="checkbox" name="hobbies" id="hc" value="hockey" >
+        <br><br>
+
+        <button>Submit</button>
+
+        
+
+
+
+
+
+
+    </form>
+</body>
+</html>
+
+
+
+<!-- http://127.0.0.1:5501/form.html?name=ram&fname=ram&email=ujjwal%40123.org&phone=kajlkjlkaj&gender=male&dob=2026-08-19&course=MCA&address=aagijalkgkajg&hobbies=ludo
+http://127.0.0.1:5501/form.html?name=Ram+ji&fname=ram&email=ujjjwal%40gmail.com&phone=1234567890&gender=male&dob=2026-08-06&course=MCA&address=igjhgjhjh&hobbies=cricket -->
+<!-- http://127.0.0.1:5502/form_eg.html?name=Radhe+prem&Fname=Ram+ji&Email=Radhe%40gamil.com&gender=male&dob=2026-08-06&cours=computer+science&hobby=Cricket -->
+  <!-- http://127.0.0.1:5501/form.html?name=Radhe+prem&fname=Ram+ji&email=Rade%40gamil.com&gender=male&dob=2026-08-06&course=EE&address=akljlgjlkaj&hobbies=cricket -->

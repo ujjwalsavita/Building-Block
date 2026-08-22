@@ -1,0 +1,29 @@
+.container{
+    background-color: antiquewhite  ;
+    padding-bottom: 10px;
+    height: 60px;
+}
+
+/* .container img{
+    padding-top: 10px;
+} */
+
+
+img{
+    margin-left: 60px;
+    height: 50px;
+    width: 50px;
+}
+a{
+    /* margin-bottom: 30px; */
+    padding: 5px;
+    /* margin-left: 60px; */
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+

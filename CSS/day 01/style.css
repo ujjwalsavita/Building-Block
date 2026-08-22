@@ -1,0 +1,37 @@
+.class-selector{
+    background-color: aqua;
+}
+
+#id-selector{
+    background-color: pink;
+}
+
+p{
+    background-color: blue;
+    
+}
+p { font-family: 'Roboto', sans-serif; }
+
+p {
+ border-top-style: solid;
+ border-right-style: dashed;
+ border-bottom-style: dotted;
+ border-left-style: double;
+}
+
+
+#order-list >:nth-child(odd){
+    background-color: bisque;
+}
+
+.btn:hover{
+    border-color: blanchedalmond;
+}
+
+.para::after{
+    content: "bye";
+}
+
+p{
+    background-color: antiquewhite;
+}

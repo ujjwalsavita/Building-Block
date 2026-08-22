@@ -1,0 +1,21 @@
+@keyframes bg-color {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+body{
+    background: linear-gradient(270deg, #ff6b6b, #ffd93d, #6bcb77,#4d96ff);
+    background-size: 400% 400%;
+    animation-name:bg-color;
+    /* animation-duration: 10s; */
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+}

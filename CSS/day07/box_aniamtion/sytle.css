@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes hero {
+    /* from{
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        top: 500px;
+        left:500px;
+    } */
+    0%{
+        top:0px;
+        left:0px;
+    }
+    20%{
+        top:0px;
+        left:400px;
+    }
+    40%{
+        top:300px;
+        left:600px;
+    }
+    60%{
+        top:600px;
+        left:250px;
+    }
+    80%{
+        top:500px;
+        left:0px;
+    }
+    100%{
+        top:0px;
+        left:0px;
+    }
+
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    position:absolute;
+    background-color: cadetblue;
+    border: 1px solid orchid;
+    animation-name: hero;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+}

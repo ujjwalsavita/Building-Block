@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Elements</title>
+
+    <style>
+
+        /* 1. ::before
+           Inserts content before the element's content
+        */
+        .before-example::before {
+            content: "★ ";
+            color: red;
+        }
+
+
+        /* 2. ::after
+           Inserts content after the element's content
+        */
+        .after-example::after {
+            content: " ✓";
+            color: green;
+        }
+
+
+        /* 3. ::first-letter
+           Styles only the first letter
+        */
+        .first-letter-example::first-letter {
+            font-size: 40px;
+            color: blue;
+            font-weight: bold;
+        }
+
+
+        /* 4. ::first-line
+           Styles only the first visible line
+        */
+        .first-line-example::first-line {
+            color: purple;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+
+        /* 5. ::selection
+           Styles selected/highlighted text
+        */
+        .selection-example::selection {
+            background-color: yellow;
+            color: red;
+        }
+
+
+        /* 6. ::placeholder
+           Styles placeholder text
+        */
+        input::placeholder {
+            color: gray;
+            font-style: italic;
+        }
+
+        textarea::placeholder { 
+            color: green;
+            font-weight: bold;
+         }
+
+
+        /* Just for making the example easy to see */
+        .first-line-example {
+            width: 350px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Pseudo Elements</h1>
+
+
+    <!-- ===================================== -->
+    <!-- 1. ::before -->
+    <!-- ===================================== -->
+
+    <h2>1. ::before</h2>
+
+    <p class="before-example">
+        Important Message
+    </p>
+
+
+    <!-- ===================================== -->
+    <!-- 2. ::after -->
+    <!-- ===================================== -->
+
+    <h2>2. ::after</h2>
+
+    <p class="after-example">
+        Task Completed
+    </p>
+
+
+    <!-- ===================================== -->
+    <!-- 3. ::first-letter -->
+    <!-- ===================================== -->
+
+    <h2>3. ::first-letter</h2>
+
+    <p class="first-letter-example">
+        Python is one of the most popular programming languages.
+    </p>
+
+
+    <!-- ===================================== -->
+    <!-- 4. ::first-line -->
+    <!-- ===================================== -->
+
+    <h2>4. ::first-line</h2>
+
+    <p class="first-line-example">
+        CSS is used to design and style web pages.
+        It controls colors, fonts, spacing, layouts,
+        animations and many other visual properties.
+    </p>
+
+
+    <!-- ===================================== -->
+    <!-- 5. ::selection -->
+    <!-- ===================================== -->
+
+    <h2>5. ::selection</h2>
+
+    <p class="selection-example">
+        Select this text using your mouse.
+        The selected text will have a yellow background
+        and red text color.
+    </p>
+
+
+    <!-- ===================================== -->
+    <!-- 6. ::placeholder -->
+    <!-- ===================================== -->
+
+    <h2>6. ::placeholder</h2>
+
+    <input
+        type="text"
+        placeholder="Enter your name"
+    >
+
+    <br><br>
+
+    <input
+        type="email"
+        placeholder="Enter your email"
+    >
+
+    <br><br>
+
+    <textarea
+        placeholder="Write your message here"
+    ></textarea>
+
+
+</body>
+</html>

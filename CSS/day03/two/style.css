@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 60px auto;
+    border-radius: 20px;
+    background-color: beige;
+    text-align: center;
+
+}
+
+.img{
+    margin:5px;
+    height: 150px ;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+
+h1{
+    margin: 10px;
+    color : rgb(14, 93, 221);
+}
+
+h2{
+    margin: 10px;
+    color:brown;
+}
+
+.parent:hover{
+    background-color: blueviolet;
+    background-color: antiquewhite;
+}

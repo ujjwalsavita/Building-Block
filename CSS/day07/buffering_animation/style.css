@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes spinner {
+    from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 5px solid silver;
+    border-radius: 50%;
+    border-top-color: antiquewhite;
+    animation-name: spinner;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
