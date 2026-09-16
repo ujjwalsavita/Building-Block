@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <form id="form">
+        <input type="text" name="name" id="name" placeholder="Enter youname">
+        <br><br>
+        <input type="email" name="name" id="name" placeholder="Enter email">
+        <br><br>
+        <input type="password" name="name" id="name" placeholder="Enter password">
+        <br><br>
+        <button id="btn">submit</button>
+    </form>
+
+
+
+
+    <script>
+            let btn = document.getElementById('form');
+            btn.addEventListener('click',(e)=>{
+                
+                e.preventDefault();
+                console.log('Button clicked');
+
+            })
+        </script>
+</body>
+</html>
+
+
+<!-- http://127.0.0.1:5500/javaScript/Event%20Handling/form/index.html?name=&name=&name= -->
