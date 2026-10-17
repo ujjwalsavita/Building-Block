@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+}
+
+.app {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.item {
+  margin-bottom: 12px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.item button {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 1px olivedrab;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.item p {
+  padding: 0 18px 12px;
+  color: #555;
+}
+
+@media (max-width: 640px) {
+  .app {
+    margin: 20px auto;
+  }
+}
+
+
+
