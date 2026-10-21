@@ -60,7 +60,7 @@ function App() {
         <div className="grid grid-cols-4 text-white gap-3">
           {buttons.map((button) => (
             <button className={`p-4 rounded-xl 
-            ${button === 'AC' ? "bg-red-700" : button === 'DEL' ? "bg-red-700" : "bg-amber-900"}
+            ${button === 'AC' ? "bg-red-700" : button === 'DEL' ? "bg-red-700" :["%", "/","*","+","/","-","="].includes(button)?"bg-amber-500":"bg-amber-900"}
             ${button == '0' ? "col-span-2" : ""}
             `}
               onClick={() => (handleClick(button))}
