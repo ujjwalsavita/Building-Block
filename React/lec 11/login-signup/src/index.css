@@ -128,3 +128,19 @@
     @apply font-sans;
     }
 }
+
+
+
+@keyframes drive {
+  from {
+    transform: translateX(100vw);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-drive {
+  animation: drive 15s linear infinite;
+}
